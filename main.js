@@ -12,5 +12,5 @@ function updateTime() {
     minutesHand.style.transform = `rotate(${minutes * 6}deg)`
     hoursHand.style.transform = `rotate(${hours * 30}deg)`
 }
-
+updateTime()
 let interval = setInterval(updateTime, 1000)
